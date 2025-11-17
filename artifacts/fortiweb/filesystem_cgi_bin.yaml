@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/filesystem_cgi_bin.txt
+description: Display content related to /migadmin/cgi-bin folder (not recursive)
+command: fnsysctl ls -al /migadmin/cgi-bin

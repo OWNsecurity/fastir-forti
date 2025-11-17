@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/memory_process.txt
+description: List currently running process on the system
+command: diagnose system ps -l

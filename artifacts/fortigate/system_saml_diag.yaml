@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/system_saml_diagnostics.txt
+description: Display SAML information
+command: diagnose sys saml

@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/system_ip.txt
+description: Display all assigned IP addresses and interfaces currently active on the system
+command: diagnose network ip list

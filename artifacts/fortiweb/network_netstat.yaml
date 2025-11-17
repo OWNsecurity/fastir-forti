@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/network_netstat.txt
+description: Get network statistics on the system
+command: diagnose network netstat

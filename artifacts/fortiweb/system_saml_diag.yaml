@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/system_saml_diagnostics.txt
+description: Display SAML information
+command: get system saml

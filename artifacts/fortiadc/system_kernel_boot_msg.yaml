@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_kernel_boot_msg.txt
+description: Display kernel boot message when loading.
+command: fnsysctl dmesg

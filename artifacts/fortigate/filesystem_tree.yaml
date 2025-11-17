@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/filesystem_tree.txt
+description: Display the directory tree of the filesystem for inspection (including file size)
+command: diagnose sys filesystem tree /

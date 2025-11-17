@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/network_ifconfig.txt
+description: Get ifconfig output
+command: fnsysctl ifconfig

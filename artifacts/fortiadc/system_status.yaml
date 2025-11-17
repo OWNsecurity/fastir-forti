@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_status.txt
+description: Retrieve general system information (version, serial, hostname, uptime)
+command: get system status

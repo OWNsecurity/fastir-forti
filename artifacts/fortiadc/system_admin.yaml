@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_admin.txt
+description: Retrieve admin information (auth, strategy...)
+command: get system admin

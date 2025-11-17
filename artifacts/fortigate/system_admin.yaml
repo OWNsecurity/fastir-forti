@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/system_admin.txt
+description: Display administrator accounts - minimal information
+command: show system admin

@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_ha.txt
+description: Retrieve HA information (instance, change..)
+command: get system ha-status

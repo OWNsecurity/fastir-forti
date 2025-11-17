@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/system_deviceinfo_disk.txt
+description: Display detailed hardware disk information
+command: diagnose hardware deviceinfo disk

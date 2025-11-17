@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_vm_state.txt
+description: Display all information related to the virtual machine state
+command: diagnose system vm

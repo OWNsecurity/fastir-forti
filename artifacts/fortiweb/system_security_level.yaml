@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/system_security_level.txt
+description: Display security level on the system
+command: diagnose system securitylevel

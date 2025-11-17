@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/system_admin.txt
+description: Display administrator accounts
+command: show system admin

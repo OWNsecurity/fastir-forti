@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/filesystem_hash.txt
+description: Compute and list file hashes from filesystem for integrity checks
+command: diagnose sys filesystem hash

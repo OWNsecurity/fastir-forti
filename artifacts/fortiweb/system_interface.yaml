@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/system_interfaces.txt
+description: List all interface configurations (addresses, access)
+command: get system interface

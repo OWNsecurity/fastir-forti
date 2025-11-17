@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_techreport.txt
+description: Create tech report export file
+command: diagnose tech-report

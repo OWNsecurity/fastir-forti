@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/system_ip.txt
+description: Display all assigned IP addresses and interfaces currently active on the system
+command: diagnose ip address list

@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/filesystem_migadmin.txt
+description: Display content related to /migadmin/fwb-webui-angular folder (not recursive)
+command: fnsysctl ls -al /migadmin/fwb-webui-angular

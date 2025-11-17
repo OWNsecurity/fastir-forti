@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/memory_open_files.txt
+description: List currently open files by process for diagnostic
+command: diagnose sys filesystem open-files /

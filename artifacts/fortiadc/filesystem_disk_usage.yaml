@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/filesystem_disk_ysage.txt
+description: List file system disk space usage
+command: diagnose system df -ah

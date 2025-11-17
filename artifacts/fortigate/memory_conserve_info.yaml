@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/memory_conserve_mode_info.txt
+description: Display information about the conserve mode state, including memory usage and thresholds
+command: diagnose sys print-conserve-info

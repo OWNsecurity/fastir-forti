@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/system_events_0.txt
+description: Display the most recent system event logs (index 0)
+command: diagnose log show event 0

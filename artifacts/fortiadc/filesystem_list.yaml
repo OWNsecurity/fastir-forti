@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/filesystem_list.txt
+description: Display all files on the filesystem with du command (including disk space used)
+command: fnsysctl du

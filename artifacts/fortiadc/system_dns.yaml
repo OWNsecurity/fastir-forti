@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiadc/system_dns.txt
+description: List all dns configurations
+command: get system dns

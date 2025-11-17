@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/system_vpn_ssl.txt
+description: Display SSL VPN configuration
+command: get vpn ssl settings

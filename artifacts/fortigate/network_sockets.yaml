@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortigate/network_tcpsock.txt
+description: List all active TCP sockets and their states
+command: diagnose sys tcpsock

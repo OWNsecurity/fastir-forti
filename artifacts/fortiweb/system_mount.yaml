@@ -1,0 +1,4 @@
+version: 1.0
+output_file: fortiweb/system_mount.txt
+description: Display mounted partition on the system
+command: diagnose system mount list
