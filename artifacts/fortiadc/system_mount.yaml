@@ -2,4 +2,3 @@ version: 1.0
 output_file: fortiadc/system_mount.txt
 description: Display detailed hardware disk mounted on system
 command:  diagnose hardware get sysinfo partition
-

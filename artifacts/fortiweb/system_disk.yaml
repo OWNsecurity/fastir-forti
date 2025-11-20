@@ -2,4 +2,3 @@ version: 1.0
 output_file: fortiweb/system_deviceinfo_disk.txt
 description: Display detailed hardware disk information
 command: diagnose hardware harddisk info
-
