@@ -135,7 +135,7 @@ Enter forti SSH password:
 2025-10-05 21:30:57,310 INFO: - Output saved to fortigate/vpn_ssl_configuration.txt
 2025-10-05 21:30:57,310 INFO: ------------------------------------
 2025-10-05 21:30:57,310 INFO: Alls artifacts were collected!
-2025-10-05 21:30:57,310 INFO: Creating ZIP archive: /root/fortiartifacts/output_fortigate_20251005_213057.zip
-2025-10-05 21:30:57,406 INFO: Archive successfully created: /root/fortiartifacts/output_fortigate_20251005_213057.zip
+2025-10-05 21:30:57,310 INFO: Creating ZIP archive: /root/fastir-forti/output_fortigate_20251005_213057.zip
+2025-10-05 21:30:57,406 INFO: Archive successfully created: /root/fastir-forti/output_fortigate_20251005_213057.zip
 2025-10-05 21:30:57,406 INFO: Collection completed.
 ```
