@@ -1,11 +1,11 @@
 
-# 🛡️ FortiArtifacts
+# 🛡️ FastIR-Forti
 
 ---
 
 ## 🎯 Goals
 
-FortiArtifacts is a lightweight Python utility that automates the collection of live-response artifacts from Fortinet devices (For now : FortiGate, FortiWeb and FortiADC) using SSH wrapper method and YAML-based command definitions to specify useful artifacts.
+FastIR-Forti is a lightweight Python utility that automates the collection of live-response artifacts from Fortinet devices (For now : FortiGate, FortiWeb and FortiADC) using SSH wrapper method and YAML-based command definitions to specify useful artifacts.
 
 It is intended for incident responders who need to automate the execution of diagnostic commands and systematically collect their outputs from Fortinet systems.
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ```
-python fortiartifacts.py --ip <DEVICE_IP> --type <DEVICE_TYPE>
+python fastir-forti.py --ip <DEVICE_IP> --type <DEVICE_TYPE>
 ```
 
 Arguments :
@@ -45,16 +45,16 @@ Arguments :
 #### Example
 
 ```
-python fortiartifacts.py --ip 192.168.100.45 --type fortigate --zip
+python fastir-forti.py --ip 192.168.100.45 --type fortigate --zip
 ```
 
-FortiArtifacts collects artifacts defined in `artifacts/fortigate` on `192.168.100.45` fortigate appliance and creates an output ZIP archive at the end of the execution to simplify transfer to the investigation server.
+FastIR-Forti collects artifacts defined in `artifacts/fortigate` on `192.168.100.45` fortigate appliance and creates an output ZIP archive at the end of the execution to simplify transfer to the investigation server.
 
 #### Architecture
 
 ```
-📁 FortiArtifacts/
-├── fortiartifacts.py
+📁 fastir-forti/
+├── fastir-forti.py
 ├── artifacts/
 │   ├── fortigate/
 │   │   ├── system_interface.yaml
@@ -84,7 +84,7 @@ description: Get interface information
 command: get system interface
 ```
 
-FortiArtifacts will parse the YAML, extract command line and executes it on the appliance via SSH.
+FastIR-Forti will parse the YAML, extract command line and executes it on the appliance via SSH.
 
 version: Artifact version (for internal tracking)
 
@@ -97,7 +97,7 @@ command: CLI command executed on the Fortinet device
 ## 🧾 Example Output
 
 ```
-root@proxmox-server ~/fortiartifacts # python3 script.py --ip 192.168.100.45 --type fortigate --zip
+root@proxmox-server ~/fastir-forti # python3 fastir-forti.py --ip 192.168.100.45 --type fortigate --zip
 Enter forti SSH username: admin
 Enter forti SSH password:
 2025-10-05 21:30:49,912 INFO: ------------------------------------

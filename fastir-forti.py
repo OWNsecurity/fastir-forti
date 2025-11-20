@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FortiArtifacts
+FastIR-Forti
 
 Lightweight Python utility that automates the collection of live-response artifacts from Fortinet devices using SSH wrapper method and YAML-based command definitions to specify useful artifacts.
 
@@ -10,14 +10,14 @@ Process:
 - Executes the commands to collect artifacts and saves the output into the specified folder
 
 Usage:
-    python fortiartifacts.py --ip IP --type DEVICE_TYPE
+    python fastir-forti.py --ip IP --type DEVICE_TYPE
 
 Optional :
     --zip : create ZIP output
     --port : specific SSH port
 
 Example :
-    python fortiartifacts.py --ip 192.168.100.45 --type fortigate --zip
+    python fastir-forti.py --ip 192.168.100.45 --type fortigate --zip
 
 Requirements:
     pip install paramiko pyyaml
@@ -65,7 +65,7 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("fortiartifacts")
+logger = logging.getLogger("fastir-forti")
 
 
 def parse_args():
